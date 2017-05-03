@@ -1,25 +1,25 @@
 * install the dependencies:
 
 ```
-npm install
+yarn install
 ```
 
 * Run development server:
 
 ```
-npm start
+yarn start
 ```
 
 * Or you can run development server with [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard):
 
 ```
-npm run dev
+yarn run dev
 ```
 
-Open the web browser to `http://localhost:8888/`
+Open the web browser to `http://localhost:8000/`
 
-### To build the production package
+### To build the production app
 
 ```
-npm run build
+yarn run build
 ```
