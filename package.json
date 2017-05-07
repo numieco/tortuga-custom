@@ -19,13 +19,14 @@
     "dev:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server"
   },
   "dependencies": {
+    "bulma": "^0.4.1",
     "chalk": "1.1.3",
     "compression": "1.6.2",
     "cross-env": "3.1.3",
+    "minimist": "1.2.0",
     "node-sass": "^4.3.0",
     "react": "15.4.2",
     "react-dom": "15.4.2",
-    "minimist": "1.2.0",
     "sass-loader": "^6.0.2"
   },
   "devDependencies": {
@@ -52,8 +53,8 @@
     "webpack": "^2.2.1",
     "webpack-cleanup-plugin": "^0.4.2",
     "webpack-dashboard": "^0.3.0",
-    "webpack-dev-server": "^2.4.1",
     "webpack-dev-middleware": "1.9.0",
+    "webpack-dev-server": "^2.4.1",
     "webpack-hot-middleware": "2.15.0"
   }
 }
