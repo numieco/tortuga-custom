@@ -1,6 +1,6 @@
 {
   "name": "tortuga",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tortuga Web Framework for Numie",
   "main": "''",
   "author": "Nummie, LLC",
@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.prod.config.js --progress --profile --colors",
-    "start": "webpack-dev-server --progress --profile --colors --quiet",
+    "start": "cross-env NODE_ENV=production node ./server/server.js",
+    "start:local": "npm run build && node ./server/server.js",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": "webpack-dev-server --progress --profile --colors",
     "dev:dashboard": "webpack-dashboard -- webpack-dev-server --progress --profile --colors",
