@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import '../styles/index.scss';
 
 export default class App extends React.Component {
@@ -9,6 +10,6 @@ export default class App extends React.Component {
         <p>Testing <span className="redBg">Numie</span> Frame work.</p>
         <p>Enjoy!</p>
       </div>
-    )
+
   }
 }
