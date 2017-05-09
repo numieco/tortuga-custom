@@ -1,5 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
+import {Helmet} from "react-helmet";
+import '../styles/index.scss';
+=======
 import './styles/index.sass';
+>>>>>>> 5ac25c230bc853eb2a78ef5baee735334baf4f70
 
 export default class App extends React.Component {
   render() {
@@ -9,6 +14,6 @@ export default class App extends React.Component {
         <p>Testing <span className="redBg">Numie</span> Frame work.</p>
         <p>Enjoy!</p>
       </div>
-    )
+
   }
 }
