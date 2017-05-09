@@ -18,14 +18,14 @@ yarn run dev:dashboard:
 
 Open the web browser to `http://localhost:8000/`
 
-### To build the production app **locally**:
+To build the production app **locally**:
 
 ```
 yarn run start:local
 ```
 
-### To build the production app **remotely**:
+To build the production app **remotely**:
 
 ```
-yarn run start:local
+yarn start
 ```
