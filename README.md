@@ -13,7 +13,7 @@ yarn run dev
 * Or you can run development server with [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard):
 
 ```
-yarn run dev:dashboard:
+yarn run dev:dashboard
 ```
 
 Open the web browser to `http://localhost:8000/`
