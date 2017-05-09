@@ -23,3 +23,9 @@ Open the web browser to `http://localhost:8000/`
 ```
 yarn run build
 ```
+
+## To test
+
+```
+npm test
+```
