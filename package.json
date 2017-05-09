@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.prod.config.js --progress --profile --colors",
-    "start": "webpack-dev-server --progress --profile --colors --quiet",
+    "start": "npm run build && node ./server/server.js",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": "webpack-dev-server --progress --profile --colors",
     "dev:dashboard": "webpack-dashboard -- webpack-dev-server --progress --profile --colors",
