@@ -10,6 +10,6 @@ export default class App extends React.Component {
         <p>Testing <span className="redBg">Numie</span> Frame work.</p>
         <p>Enjoy!</p>
       </div>
-
+)
   }
 }
