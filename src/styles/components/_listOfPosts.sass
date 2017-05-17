@@ -1,0 +1,499 @@
+// This file contains css for
+// MOBILE devices without media query.
+// To find css for desktop,
+// open desktopListOfPosts.sass
+
+//-----------------FEATURED POST-----------------------
+
+.featured
+  width: 100%
+
+  .featured-hero-image, .normal-hero-image
+    width: 100%
+    display: table
+
+
+    img
+      display: table-row
+      width: 100%
+      border-radius: 4px
+
+  .featured-title
+    font-size: 22px
+    font-weight: bold
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #272829
+    text-align: left
+    a
+      text-decoration: none
+      color: #141516
+
+//-----------------------------------------------------
+.loading
+  position: fixed
+  height: 100vh
+  width: 100vw
+  color: rgb(39, 40, 41)
+  z-index: 9999
+  top: 0px
+  bottom: 0px
+  left: 0px
+  right: 0px
+  background: rgb(255, 255, 255)
+  padding-top: 45vh
+  text-align: center
+  .wrap-loading
+    text-align: center
+    display: inline-block
+    .loading-text
+      font-size: 34px
+      font-weight: bold
+      letter-spacing: 0.6px
+      text-align: center
+      color: #1c1e22
+      font-size: 28px
+      margin-top: 25px
+      margin-left: 20px
+      float: left
+    .logo-svg
+      width: 51px
+      overflow: hidden
+      float: left
+      svg
+        height: 87px
+        width: 240px
+
+.post
+  padding: 20px
+  text-align: left
+  border-bottom: solid 1px #f6f6f6
+
+  .post-published-at
+    font-size: 12px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #a3a3a3
+    margin-bottom: 10px
+
+  .post-content-preview
+    max-height: 130px
+    font-size: 14px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.83
+    letter-spacing: normal
+    color: #272829
+    text-overflow: ellipsis
+    overflow: hidden
+    display: block
+    display: -webkit-box
+    max-width: 800px
+    -webkit-line-clamp: 6
+    -webkit-box-orient: vertical
+    margin-top: 10px
+    margin-bottom: 10px
+    p
+      margin: 0px
+      font-size: 14px
+    img
+      display: none !important
+
+  .continue-reading
+    font-size: 12px
+    font-weight: 600
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: 0.7px
+    color: #ffffff
+    padding: 12px 22px 13px
+    margin-top: 10px
+    margin-bottom: 10px
+    border-radius: 4px
+    background-color: #1c1e22
+    display: inline-block
+    text-transform: uppercase
+
+    &:hover
+      cursor: pointer
+
+
+.container
+  display: block
+  width: 100%
+  margin-top: 61px
+
+.single-post
+  text-align: center
+
+  .title
+    a
+      text-decoration: none
+      color: #141516
+
+.relevant-news
+  font-size: 22px
+  font-weight: bold
+  font-style: normal
+  font-stretch: normal
+  line-height: normal
+  letter-spacing: 1px
+  color: #141516
+  text-transform: uppercase
+  margin: 30px auto 0px
+  display: block
+  width: 100%
+  text-align: center
+
+//------------NORMAL POSTS-------------
+
+.link-svg
+  height: 20px
+  width: 20px
+  margin: 0 10px 0 5px
+  display: inline-block
+  float: left
+
+.normal-posts
+  padding: 0 20px
+  height: unset !important
+  display: inline-block
+  float: left
+  width: calc(100% - 40px)
+
+  .single-post
+    margin-top: 30px
+    display: inline-block
+    float: none !important
+    width: 100%
+
+    &:last-child .post
+      border: none
+
+  .normal-hero-image
+    margin-bottom: 25px
+    width: 100%
+    display: table
+
+    img
+      display: table-row
+      width: 100%
+      border-radius: 4px
+
+  .post
+    padding: 0
+    padding-bottom: 30px
+    width: calc(100% - 35px)
+    float: left
+
+    .post-content-preview
+      overflow: hidden
+      p
+        margin-top: 0px
+        margin-bottom: 0px
+
+    .post-published-at
+      font-size: 10px
+      font-weight: 300
+      font-style: normal
+      font-stretch: normal
+      line-height: normal
+      letter-spacing: 0.35px
+      color: #a3a3a3
+      margin-top: 2px
+      margin-bottom: 11px
+
+    .title
+      font-size: 16px
+      font-weight: bold
+      font-style: normal
+      font-stretch: normal
+      line-height: normal
+      letter-spacing: normal
+      color: #141516
+
+.load-more-post
+  padding: 10px 45px 13px 46px
+  display: inline-block
+  margin: 0 calc(50% - 101px)
+  border-radius: 4px
+  border: solid 1px #1c1e22
+  font-size: 12px
+  font-weight: bold
+  font-style: normal
+  font-stretch: normal
+  line-height: normal
+  letter-spacing: 0.6px
+  color: #1c1e22
+  text-transform: uppercase
+  text-align: center
+  margin-bottom: 48px
+  &:hover
+    cursor: pointer
+
+.call-us
+  border-radius: 4px
+  background-color: #ffffff
+  box-shadow: 0 0 0 1px #f7f7f7
+  margin: 0 auto
+  display: block
+  text-align: center
+  padding: 10px
+  width: calc(100% - 20px)
+
+  .contact-number
+    font-size: 16px
+    font-weight: 600
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #1c1e22
+    margin-bottom: 8px
+    a.telephone
+      text-decoration: none
+      color: #1c1e22
+      border-bottom: 2px solid #1c1e22
+
+  .address
+    margin: 0 calc(50% - 46.5px)
+    font-size: 10px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    text-align: center
+    color: #1c1e22
+
+.more-articals-container
+  .more-articals-title
+    margin: 20px 0px 20px 20px
+    font-size: 20px
+    font-weight: bold
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #141516
+    float: left
+    width: calc(100% - 20px)
+    position: relative
+  .more-articals-title:after
+    content: ' '
+    position: absolute
+    height: 4px
+    width: 30px
+    top: 50%
+    margin-left: 5px
+    background: #1c1e22
+
+  a
+    text-decoration: none
+    color: #141516
+
+  .more-articals-element
+    background-color: #fdfdfd
+    box-shadow: 0 0 0 1px #f7f7f7
+    clear: both
+    font-size: 16px
+    font-weight: 600
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #141516
+    padding: 20px
+    width: calc(100% - 40px)
+    .arrow-svg
+      padding-top: 0px
+      line-height: 25px
+
+    .arrow
+      border: solid #1c1e22
+      border-width: 0 3px 3px 0
+      display: inline-block
+      padding: 4px
+      -webkit-transform: rotate(-45deg)
+      border-radius: 0px 3px 3px 3px
+      float: right
+      margin-top: 5px
+
+.links-container
+  @extend .more-articals-container
+
+  .links-title
+    @extend .more-articals-title
+
+  .links-element-sound-cloud,
+  .links-element-question,
+  .links-element-radio
+    line-height: 40px
+    &:hover
+      cursor: pointer
+
+  .links-element
+    @extend .more-articals-element
+    font-size: 16px
+    font-weight: 600
+    display: inline-block
+    .sound-cloud-logo, .question-logo, .radio-logo
+      width: 40px
+      height: 40px
+      float: left
+      margin-right: 20px
+      svg
+        width: 40px
+        height: 40px
+    .arrow-svg
+      padding-top: 5px
+      line-height: 35px
+.arrow-svg
+  display: inline-block
+  float: right
+
+.archive-button
+  text-align: center
+  background-color: #ffffff
+  box-shadow: 0 0 0 1px #f7f7f7
+  display: table
+  padding: 19px calc(50% - 48px) 17px
+  text-align: center
+
+  .archive-button-text
+    float: left
+    font-size: 20px
+    font-weight: bold
+    margin-right: 11.5px
+  .arrow-svg
+    float: left
+    transform: rotate(90deg)
+    margin-top: 6px
+    svg
+      display: table
+  .rotate-svg
+    transform: rotate(270deg)
+
+.archive-months
+  width: 100%
+  a
+    text-decoration: none
+    color: #141516
+  .archive-month-name
+    background-color: #ffffff
+    box-shadow: 0 0 0 1px #f7f7f7
+    font-size: 20px
+    font-weight: 600
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #141516
+    padding: 18px 20px 19px
+    width: calc(100% - 40px)
+    clear: both
+    text-align: left
+
+.shop-gold
+  width: 100%
+  .shop-gold-text
+    padding: 13px 0px 14px 0px
+    font-size: 18px
+    font-weight: 600
+    text-align: center
+    color: #15171a
+
+.footer
+  width: calc(100% - 40px)
+  background-color: #1c1e22
+  padding: 20px
+  position: relative
+
+  a
+    text-decoration: none
+    color: #fff
+
+  .site-logo
+    width: 186.4px
+    height: 100%
+    float: right
+    position: absolute
+    overflow: hidden
+    opacity: 0.5
+    top: 0px
+    right: 0
+    .logo-svg
+      overflow: hidden
+      height: inherit
+      svg
+        position: absolute
+        top: -25px
+        left: 61px
+        height: 500px
+        width: 1200px
+        transform: scale(1.1)
+
+  .footer-text-link
+    font-size: 24px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #ffffff
+    margin-bottom: 30px
+    width: 100%
+    text-align: left
+    position: relative
+    z-index: 1
+
+  .privacy-policy, .terms-conditions
+    opacity: 0.8
+    font-size: 18px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #ffffff
+    margin-bottom: 20px
+    display: inline-block
+    width: 100%
+
+  .privacy-policy
+    margin-top: 10px
+
+  .footer-social-media-buttons
+    margin-top: 20px
+    margin-bottom: 36px
+    .footer-button
+      width: 40px
+      height: 40px
+      display: inline-block
+      margin-right: 30px
+      svg, a
+        height: inherit
+        width: inherit
+
+.footer-copyright
+  padding: 8px 30px 30px 30px
+  width: calc(100% - 60px)
+  display: inline-block
+  font-size: 14px
+  font-weight: normal
+  font-style: normal
+  font-stretch: normal
+  line-height: normal
+  letter-spacing: normal
+  color: #ffffff
+  background: #1c1e22
+  text-align: center
+  .footer-copyright-bold
+    font-weight: 600

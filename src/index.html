@@ -33,7 +33,11 @@
     <meta content="" name="twitter:description">
     <meta content="" name="twitter:image">
 
-    <title>Tortuga</title>
+    <title>Patriot Trading Group</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     <script>document.documentElement.className = 'js';</script>
   </head>
@@ -42,5 +46,15 @@
 
     <div id="app">Loading...</div>
 
+    <script type="text/javascript">
+      if(document.querySelector('.normal-posts') !== null) {
+        var elem = document.querySelector('.normal-posts');
+        var msnry = new Masonry( elem, {
+          // options
+          itemSelector: '.single-post',
+          columnWidth: 275
+        });
+      }
+    </script>
 </body>
 </html>
