@@ -57,7 +57,8 @@ module.exports = {
       files: {
         css: ['style.css'],
         js: [ "main.js"],
-      }
+      },
+      inject: false
     }),
   ]
 };
