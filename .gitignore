@@ -28,6 +28,3 @@ node_modules
 
 # Ignore build files
 public
-
-#Ghost secret
-ghost-secret.js
